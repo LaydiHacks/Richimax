@@ -1,12 +1,13 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: LO MEJOR SE COMPARTE EN FAMILIA
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Disfruta de los mejores pasteles, empanadas, arepas y diferentes comidas tradicionales junto con tu familia. Nuestros productos cuenta con altos estándares de calidad, medidas de bioseguridad y con el sabor casero que solo una familia colombiana puede agregar a sus alimentos hechos con amor.
+
+    
   action: # action button is optional
-    label: Find Out More
+    label: Más Información
     url: '#about'
 
 
@@ -14,149 +15,121 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: Realiza tus pedidos!
+    text: Ofrecemos a nuestros clientes diferentes platos tradicionales colombianos, ideal para compartir en eventos familiares, corporativos o para compartir con amigos. El domicilio incluido. Realizar pedidos 24 horas antes. Estamos ubicados en Bogotá y Funzá.
+    
     actions:
-      - title: Get Started!
-        url: '#page-top'
+      - title: Escríbenos!
+        url: https://api.whatsapp.com/send?phone=573195712463&fbclid=IwAR2_G6hj13QoQzXu1pAiue21kzxBouAafHnw_ZlQEre3PwM1v8wQouXM5fo
         class: btn-light
 
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Nuestros Servicios
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: Calidad y Seguridad
+        text: Nuestros productos son realizados en las mejores condiciones de bioseguridad y alta calidad.
         icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+      - title: Domicilio Incluido
+        text: Realizamos domicilios a toda Bogotá y Funzá, el producto se entrega debidamente empacado.
         icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Hecho con Amor.
+        text: Ofrecemos increibles platos tradicionales colombianos con el sabor casero que solo una familia colombiana puede agregar a sus alimentos hechos con amor.
+        icon: fa-heart
+      - title: Servicio Digital
+        text: Puedes solicitar cualquier de nuestros productos para tus eventos familiares o corporativos con 24 horas de anticipación.
         icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: fa-heart
+      
+      
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - text: ALITAS EMPANADAS
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: 1.jpg
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
+      - text: CHICHARRÓN
         icon: 2.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
+      - text: PASTEL DE YUCA
         icon: 3.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
+      - text: AREPAS DE HUEVO
         icon: 4.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
+      - text: EMPANADAS
         icon: 5.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+      - text: ARROZ CON LECHE
         icon: 6.jpg
         url: '#'
 
   - type: aside.html
     section_id: aside
-    title: Free Download at Start Bootstrap!
+    title: Solicita una cotización
     actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
+      - title: Escríbenos!
+        url: https://api.whatsapp.com/send?phone=573195712463&fbclid=IwAR2_G6hj13QoQzXu1pAiue21kzxBouAafHnw_ZlQEre3PwM1v8wQouXM5fo
         class: btn-light
 
-  - type: members.html
-    section_id: members
-    title: Our Crew!
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
+  # - type: members.html
+  #   section_id: members
+  #   title: Our Crew!
+  #   background_style: bg-info text-white
+  #   members:
+  #     - title: Christina M. Aponte
+  #       text: Singer and Songwriter
+  #       image: assets/img/members/person1.jpg
+  #       url: '#'
+      
 
-  - type: timeline.html
-    section_id: timeline
-    title: Major Achievements!
-    background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
-    actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          2017-2018
-          **Humble Beginnings**
-        text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          November 2019
-          An Coaching started
-        text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+  # - type: timeline.html
+  #   section_id: timeline
+  #   title: Major Achievements!
+  #   background_style: bg-dark text-primary
+  #   last_image: assets/img/timeline-end.png
+  #   actions:
+  #     - image: assets/img/portfolio/thumbnails/1.jpg
+  #       title: >+
+  #         2017-2018
+  #         **Humble Beginnings**
+  #       text: >-
+  #         We begun with small group of people willing to work hard and make our
+  #         teaching skills worth , in front of all others!
+  #     - image: assets/img/portfolio/thumbnails/2.jpg
+  #       title: >+
+  #         November 2019
+  #         An Coaching started
+  #       text: >-
+  #         We started to gather like minded people and started our stategies
+  #         and future plans to them. As a result , interested people joined us!
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Contáctanos!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Solicita más información en cualquier de nuestras redes sociales. Muchas gracias.
     actions:
-    - title: +1 (202) 555-014
+    - title: (319) 571-2463
       icon: fa-phone
-    - title: E-Mail
-      icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: fa-twitter
-      icon_type: fab
-      url: '#'
+      url: https://api.whatsapp.com/send?phone=573195712463&fbclid=IwAR2_G6hj13QoQzXu1pAiue21kzxBouAafHnw_ZlQEre3PwM1v8wQouXM5fo
+    # - title: E-Mail
+    #   icon: fa-envelope
+    #   url: mailto:contact@yourwebsite.com
     - title: Facebook
       icon: fa-facebook
       icon_type: fab
-      url: '#'
+      url: https://www.facebook.com/Richimax-109788484544282
+    - title: Instagram
+      icon: fa-instagram
+      icon_type: fab
+      url: https://www.instagram.com/richimax.comidas/
+    
 
 ---
